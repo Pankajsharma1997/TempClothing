@@ -1,0 +1,257 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+/* banner */
+.banner{
+    background-image: url(../Images/slide1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.text-content{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:100%;
+    text-align: center;
+}
+h4{
+    font-size:1.5em;
+    text-transform: uppercase;
+    color:#f54d2f;
+}
+h3{
+    font-size:2.5em;
+    text-transform: uppercase;
+    color:#fff;
+}
+/* latest products */
+.latest-products{
+    margin-top:100px;
+}
+.section-heading{
+    margin-bottom: 10px;
+    text-align:left;
+}
+.product-row{
+    margin-bottom: 30px;
+}
+
+/* best features */
+.best-features{
+    margin-top:100px;
+}
+h5{
+    font-size: 1.5em;
+}
+.left-content p,ul li{
+    line-height: 30px;
+}
+.right-image img{
+    width:100%;
+    border:2px solid #f54d2f;
+}
+.btn-read{
+    text-decoration: none;
+    background-color: #f54d2f;
+    color:#fff;
+    padding: 10px 20px;
+}
+.btn-read:hover{
+    background-color: #cf2406;
+}
+
+/* call-to-action */
+.call-to-action{
+    margin-top:60px;
+    text-align:center;
+    background-color:#f54d2f;
+    color:#fff;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+ .filled-button{
+    text-decoration: none;
+    background-color: #fff;
+    color:#cf2406;
+    padding:10px 20px;
+    display:inline-block;
+    
+ }
+ .filled-button:hover{
+    border:2px solid;
+    letter-spacing :2px;
+    transition: 1s;
+ }
+ /* footer */
+ footer{
+    background-color: black;
+    color:#fff;
+    text-align: center;
+    margin-top:20px;
+    padding:15px;
+ }
+
+ /* product page */
+.banner-product{
+    background-image: url(../Images/slide2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* about page */
+.banner-about{
+    background-image: url(../Images/about\ banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+ul.social-icons li{
+    display:inline-block;
+}
+ul.social-icons li a{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    line-height:50px;
+    color:black;
+    transition: 1s;
+
+}
+ul.social-icons li a:hover{
+    color:#f54d2f;
+}
+ul.social-icons li:first-child{
+    margin-left: 50px;
+   } 
+.team-members{
+    margin-top:100px;
+}
+.team-member{
+    border:1px solid #f54d2f;
+}
+.team-member img{
+    width:100%;
+    overflow: hidden;
+}
+.team-member .down-content{
+    padding:30px;
+    text-align: center;
+}
+.team-member h4{
+    font-size:24px;
+    color:black;
+}
+.team-member span{
+    color:#cf2406;
+    font-weight: 500;
+}
+
+
+@media (max-width:992px){
+    .text-content{
+        position:absolute;
+        top:60%;
+        transform:translateY(-60%);
+        width:100%;
+        text-align:center;
+    }
+    h4{
+        font-size:1.5em;
+        text-transform:uppercase;
+        color:#f54d2f;
+        margin-top:10px;
+    }
+    h3{
+        font-size:2.5em;
+        text-transform:uppercase;
+        color:#fff;
+    }
+    p{
+        margin-bottom:60px;
+    }
+    ul.social-icons li:first-child{
+        margin-left: 150px;
+       } 
+    
+}
+
+/* services */
+.services{
+    background-image:url(../Images/about\ banner.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:100px 0px;
+}
+.services .service-item{
+    text-align:center;
+}
+.services .service-item .icon{
+    background-color: #cf2406;
+    padding:40px;
+}
+.services .service-item .icon i{
+    width:100px;
+    height:100px;
+    display:inline-block;
+    text-align:center;
+    line-height:100px;
+    background-color: #f3f3f3;
+    color:#cf2406;
+    font-size:32px;
+}
+.services .service-item .down-content{
+    font-size:16px;
+    color:#cf2406;
+    margin-bottom:20px;
+    background-color: #f3f3f3;
+
+}
+.services .service-item .down-content h4{
+    font-size:24px;
+    color:#cf2406;
+    margin-bottom:20px;
+}
+.services .service-item .down-content p{
+    padding-bottom:20px;
+}
+
+/* happy clients */
+.happy-clients{
+    margin-top:100px;
+    margin-top:40px;
+}
+.happy-clients img{
+    width:100%;
+    margin-bottom:20px;
+}
+
+/* contact us */
+.banner-contect{
+    background-image:url(../Images/about\ banner.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:100px 0px;
+    height:100vh;
+}
+.find-us{
+    margin-top:50px;
+}
+#map{
+   margin:20px;
+   border:1px solid #cf2406; 
+}
+.find-us p{
+    margin:10px;
+    padding: 10px;
+}
+
+
